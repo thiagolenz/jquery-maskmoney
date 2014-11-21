@@ -370,7 +370,7 @@
                         length;
                     if (input.setSelectionRange) {
                         length = $input.val().length;
-                        input.setSelectionRange(length, length);
+                        input.setSelectionRange(0, length);
                     } else {
                         $input.val($input.val());
                     }
